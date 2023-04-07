@@ -1,0 +1,93 @@
+{
+    "DoTu": {
+        "name": {
+            "EN": "Tu Ngoc Anh Do",
+            "VI": "Đỗ Ngọc Anh Tú",
+            "other": ""
+        },
+        "jobTitle": "Software Engineer",
+        "contact": {
+            "gender": "male",
+            "email": "hiimdotu@gmail.com",
+            "phone": "(+84) 967369291",
+            "address": "Hanoi, Vietnam"
+        },
+        "education": {
+            "degree": "B.S.",
+            "major": "Telecommunication Engineering",
+            "university": "Posts and Telecommunications Institute of Technology",
+            "date": "2018 - 2023",
+            "gpa": "GPA: 2.6/4.0"
+        },
+        "skill": {
+            "other": [
+                "HTML5/CSS",
+                "Linux",
+                "Git",
+                "OOP"
+            ],
+            "language": [
+                "C/C++",
+                "Javascript",
+                "Dart"
+            ],
+            "framework": [
+                "Bootstrap",
+                "VueJS"
+            ],
+            "database": [
+                "MySQL"
+            ]
+        },
+        "language": [
+            "Vietnamese",
+            "English"
+        ],
+        "objective": "As a final year student, with professional knowledge and skills. I would like to work at the company as a software engineer where I can use my skills to the advantage of the company while having the scope to develop my own skills.",
+        "experience": [
+            {
+                "company": "MiraiSoft",
+                "title": "Front-End Developer",
+                "time": "Jul 2022 - Nov 2022",
+                "responsibility": [
+                    "Using my knowledge of HTML, CSS, Javascript, I designed a website for students to manage their information.",
+                    "Website development using VueJS"
+                ]
+            }
+        ],
+        "project": [
+            {
+                "name": "To-do List",
+                "title": "Front-End Developer",
+                "time": "Oct 2022",
+                "description": [
+                    "Using VueJS, build a 'To-do List' website",
+                    "https://amzenryu.github.io/to-do-list/"
+                ]
+            },
+            {
+                "name": "Student management website",
+                "title": "Front-End Developer",
+                "time": "Sep 2022 - Oct 2022",
+                "description": [
+                    "Built a website to allow users to manage information about timetables, subjects, classes, grades, ... using VueJS framework on the front-end"
+                ]
+            },
+            {
+                "name": "Stock update website",
+                "title": "Front-End Developer",
+                "time": "Aug 2022 - Sep 2022",
+                "description": [
+                    "Using HTML, CSS, JS, build a website through the provided API"
+                ]
+            }
+        ],
+        "interest": [
+            "cat",
+            "dog",
+            "anime",
+            "novel",
+            "video games"
+        ]
+    }
+}

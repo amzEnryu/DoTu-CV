@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuDo-CV</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="profile">
+        <div class="me">
+          <h2 class="name-en"></h2>
+          <h2>
+            <span class="name-vi"></span> <br>
+            <span class="jobTitle"></span>
+          </h2>
+        </div>
+        <div class="contact">
+          <ul>
+            <li>
+              <span class="icon"><i class="fa-solid fa-person"></i></span>
+              <span class="text gender"></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="text email"></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-solid fa-phone"></i></span>
+              <span class="text phone"></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span class="text address"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact info">
+        <h2 class="title">Education</h2>
+        <h4 class="edu-degree"></h4>
+        <h4 class="edu-major"></h4>
+        <h4 class="edu-university"></h4>
+        <ul>
+          <li>
+            <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+            <span class="text edu-date"></span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span class="text edu-gpa"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="contact info">
+        <h2 class="title">Skills</h2>
+        <ul>
+          <li><span class="text skill-other"></span></li>
+          <li>
+            <span class="skill">Programming languages</span>
+            <br>
+            <span class="text skill-language"></span>
+          </li>
+          <li>
+            <span class="skill">Frameworks</span>
+            <br>
+            <span class="text skill-framework"></span>
+          </li>
+          <li>
+            <span class="skill">Database</span>
+            <br>
+            <span class="text skill-database"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="contact info">
+        <h2 class="title">languages</h2>
+        <ul id="languages"></ul>
+      </div>
+    </div>
+    <div class="right">
+      <div class="about">
+        <h2 class="title">objective</h2>
+        <p class="objective"></p>
+      </div>
+      <div class="about">
+        <h2 class="title">work experience</h2>
+        <ul id="workExperience"></ul>
+      </div>
+      <div class="about">
+        <h2 class="title">projects</h2>
+        <ul id="projects"></ul>
+      </div>
+      <div class="about">
+        <h2 class="title">interests</h2>
+        <p class="interests"></p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
